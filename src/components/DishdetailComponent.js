@@ -63,7 +63,7 @@ import { FadeTransform, Fade, Stagger } from 'react-animation-components';
             return (
                 <React.Fragment>
                     <Button outline onClick={this.toggleCommentModal}>
-                        <span className="fa fa-pencil fa-lg"></span> Submit Comment
+                        <span className="fa fa-pencil fa-lg"> Submit Comment</span>
                     </Button>
     
                         <Modal isOpen={this.state.isCommentModalOpen} toggle={this.toggleCommentModal} >
